@@ -43,13 +43,13 @@ const NavBar = () => {
               <Link to="/skills">SKILLS</Link>
             </li>
             <li>
-              <Link to="/services">RESUME</Link>
+              <Link to="/">RESUME</Link>
             </li>
             {/* <li>
               <a to="/news"></a>
             </li> */}
             <li>
-              <Link to="/contact">CONTACT</Link>
+              <Link to="/">CONTACT</Link>
             </li>
           </ul>
         </div>
