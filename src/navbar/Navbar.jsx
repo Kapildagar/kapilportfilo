@@ -1,5 +1,5 @@
 import { MdDensityMedium } from "react-icons/md";
-import css from "./NavBar.module.scss";
+import css from "./Navbar.module.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
