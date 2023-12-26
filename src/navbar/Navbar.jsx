@@ -1,9 +1,9 @@
 import { MdDensityMedium } from "react-icons/md";
-import css from "./NavBar.module.scss";
+import css from "./Navbar.module.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const NavBar = () => {
+const Navbar = () => {
     
   //search bar toggle with search and cross button
 //   const [search, setSearch] = useState(false);
@@ -76,4 +76,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
