@@ -42,9 +42,9 @@ const NavBar = () => {
             <li>
               <Link to="/skills">SKILLS</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/">RESUME</Link>
-            </li>
+            </li> */}
             {/* <li>
               <a to="/news"></a>
             </li> */}
