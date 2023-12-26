@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import github from "../assets/github.png"
 
 export const ProjectPage = () => {
@@ -38,10 +39,11 @@ export const ProjectPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="h-10 w-fit rounded-md my-4 flex items-center text-xl p-2 gap-2 bg-blue-500 hover:bg-blue-600 cursor-pointer mx-4">
+                  <Link to="https://github.com/Kapildagar/MERN2.git"><div className="h-10 w-fit rounded-md my-4 flex items-center text-xl p-2 gap-2 bg-blue-500 hover:bg-blue-600 cursor-pointer mx-4">
                         <h1 className=" text-white ">Click for GitHub</h1>
                         <img className="h-6" src={github} />
                     </div>
+                    </Link>  
                 </div>
                 <div className="bg-[#171f38] w-72 border border-[#808dad68] rounded-md mx-auto my-10 sm:flex sm:flex-col sm:w-[600px] sm:justify-center sm:items-center  hover:scale-105 transition duration-150 ease-out hover:ease-in">
                     <h1 className="text-[#93ecc4] my-2 w-fit mx-auto" >CRUD WebApp</h1>
@@ -76,10 +78,10 @@ This post will describe how CRUD operations are used for data processing. We wil
                             </div>
                         </div>
                     </div>
-                    <div className="h-10 w-fit rounded-md my-4 flex items-center text-xl p-2 gap-2 bg-blue-500 hover:bg-blue-600 cursor-pointer  mx-4">
+                    <Link to="https://github.com/Kapildagar/CRUD.git"><div className="h-10 w-fit rounded-md my-4 flex items-center text-xl p-2 gap-2 bg-blue-500 hover:bg-blue-600 cursor-pointer  mx-4">
                         <h1 className=" text-white ">Click for GitHub</h1>
                         <img className="h-6" src={github} />
-                    </div>
+                    </div></Link>
                 </div>
                 <div className="bg-[#171f38] w-72 border border-[#808dad68] rounded-md mx-auto my-10 sm:flex sm:flex-col sm:w-[600px] sm:justify-center sm:items-center  hover:scale-105 transition duration-150 ease-out hover:ease-in">
                     <h1 className="text-[#93ecc4] my-2 w-fit mx-auto" >Movie recommendation WebSite </h1>
@@ -115,10 +117,10 @@ This post will describe how CRUD operations are used for data processing. We wil
                             </div>
                         </div>
                     </div>
-                    <div className="h-10 w-fit rounded-md my-4 flex items-center text-xl p-2 gap-2 bg-blue-500 hover:bg-blue-600 cursor-pointer  mx-4">
+                   <Link to="https://github.com/Kapildagar/MoviesRecomm.git"> <div className="h-10 w-fit rounded-md my-4 flex items-center text-xl p-2 gap-2 bg-blue-500 hover:bg-blue-600 cursor-pointer  mx-4">
                         <h1 className=" text-white ">Click for GitHub</h1>
                         <img className="h-6" src={github} />
-                    </div>
+                    </div></Link>
                 </div>
                 <div className="bg-[#171f38] w-72 border border-[#808dad68] rounded-md mx-auto my-10 sm:flex sm:flex-col sm:w-[600px] sm:justify-center sm:items-center  hover:scale-105 transition duration-150 ease-out hover:ease-in">
                     <h1 className="text-[#93ecc4] my-2 w-fit mx-auto" >Portfilo </h1>
@@ -150,10 +152,10 @@ This post will describe how CRUD operations are used for data processing. We wil
                             </div>
                         </div>
                     </div>
-                    <div className="h-10 w-fit rounded-md my-4 flex items-center text-xl p-2 gap-2 bg-blue-500 hover:bg-blue-600 cursor-pointer  mx-4">
+                   <Link to="https://github.com/Kapildagar/kapilportfilo.git"> <div className="h-10 w-fit rounded-md my-4 flex items-center text-xl p-2 gap-2 bg-blue-500 hover:bg-blue-600 cursor-pointer  mx-4">
                         <h1 className=" text-white ">Click for GitHub</h1>
                         <img className="h-6" src={github} />
-                    </div>
+                    </div></Link>
                 </div>
 
             </div>

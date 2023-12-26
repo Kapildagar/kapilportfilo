@@ -1,4 +1,4 @@
-import img from '../assets/profile.jpeg'
+import img from '../assets/profilep.png'
 
 const Intro = () => {
   return (
@@ -11,11 +11,11 @@ const Intro = () => {
         years of experience in the industry. I love all things tech and coding, I share my knowledge and experience with others.
        </p>
     </div>
-    <div className=' p-6  sm:w-2/4' >
-      <img  className="border-none rounded-full border-black-700 w-56 " src={img}/>
+    <div className=' p-6  sm:w-2/4 '  >
+      <img  className="border-none rounded-full border-black-700 w-56 h-52" src={img}/>
     </div>
     </section>
   )
 }
-
+ 
 export default Intro
