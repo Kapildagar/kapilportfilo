@@ -42,14 +42,14 @@ const Navbar = () => {
             <li>
               <Link to="/skills">SKILLS</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/services">RESUME</Link>
-            </li>
+            </li> */}
             {/* <li>
               <a to="/news"></a>
             </li> */}
             <li>
-              <Link to="/">CONTACT</Link>
+              <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>
